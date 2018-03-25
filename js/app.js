@@ -106,7 +106,7 @@ Highcharts.chart('schedule', {
             color: '#C9414C',
             lineColor: '#C9414C',
             fillColor: {
-                linearGradient: [0, 0, 0, 500],
+                linearGradient: [0, 0, 0, 400],
                 stops: [
                     [0, Highcharts.getOptions().colors[0]],
                     [1, 'rgba(2,0,0,0)']
@@ -120,7 +120,7 @@ Highcharts.chart('schedule', {
             color: '#3399D9',
             lineColor: '#3399D9',
             fillColor: {
-                linearGradient: [0, 0, 0, 500],
+                linearGradient: [0, 0, 0, 400],
                 stops: [
                     [0, Highcharts.getOptions().colors[1]],
                     [1, 'rgba(2,0,0,0)']
