@@ -1,0 +1,18 @@
+body{
+    font-family:$baseFont;
+}
+a,button{
+    transition: .2s ease-in-out;
+    color: $primaryColor;
+}
+a:hover{
+    color: $primaryColor;
+}
+button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+*, :after, :before{
+    box-sizing: border-box;
+}

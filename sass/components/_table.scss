@@ -1,0 +1,228 @@
+.table{
+    border-collapse: separate !important;
+    border-color: #2d2d2d;
+    color: #6C6F72;
+}
+thead > tr > th{
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 4px 3px!important;
+}
+
+thead > tr > td{
+    padding: 3px!important;
+    border-top: 3px solid #313131!important;
+    border-bottom: 3px solid #313131!important;
+}
+
+tbody > tr > td {
+    padding: 3px!important;
+}
+
+tr{
+    background-color: transparent!important;
+}
+
+td,th{
+    border: 1px solid #2d2d2d!important;
+    background-color: transparent!important;
+}
+th:after{
+    bottom: 2px!important;
+}
+
+.image-block{
+    &__img{
+        display: block;
+        border-radius: 50%;
+        margin: 0 auto;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+
+.form-group-sm{
+    .form-control{
+        height: 27px;
+        padding: 2px 2px;
+        font-size: 10px;
+        line-height: 1.5;
+    }
+}
+
+.form-control{
+    color: #fff;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #353535;
+    background-image: none;
+    border: 1px solid #404040;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    border-radius: 4px;
+}
+
+.inline-input{
+    margin: 0 -1px 0 -1px;
+    width: 50%;
+    display: inline-block;
+}
+.select-wrap{
+    position: relative;
+    &:before{
+        position: absolute;
+        content: url('../img/sort.svg');
+        width: 7px;
+        height: 7px;
+        right: 5px;
+        top: 4px;
+    }
+}
+.select{
+    height: 27px;
+    line-height: 20px;
+    padding: 0 0 0 4px;
+    font-size: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.table-date{
+    p{
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+.table-status{
+    text-align: center;
+    &__status{
+        font-size: 20px!important;
+        &.success{
+            color: #83B348;
+        }
+        &.timer{
+            color: #6C6F72;
+        }
+        &.square{
+            color: $primaryColor;
+        }
+    }
+}
+
+.table-group{
+    position: relative;
+    .group-avatar{
+        img{
+            border-radius: 50%;
+        }
+    }
+    .group-name{
+        color: #2F86C6;
+        font-weight: 500;
+        padding: 0 0 0 3px;
+    }
+    .group-type{
+        position: absolute;
+        bottom: -3px;
+        right: 3px;
+        i{
+            font-size: 12px;
+        }
+    }
+}
+
+
+
+.table-type{
+    text-align: center;
+    position: relative;
+    &:hover:before,
+    &:hover:after{
+        visibility: visible;
+        opacity: 1;
+    }
+    &:before{
+        position: absolute;
+        content: 'Информационный пост';
+        font-size: 10px;
+        background-color: #424242;
+        color: #ffffff;
+        width: 140px;
+        border-radius: 4px;
+        padding: 4px 0;
+        top: -40px;
+        left: -50px;
+        visibility: hidden;
+        font-weight: 600;
+        transition: .2s ease-in-out;
+        opacity: 0;
+    }
+    &:after{
+        position: absolute;
+        content: '';
+        border-top: 10px solid #424242;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        top: -20px;
+        left: 7px;
+        visibility: hidden;
+        transition: .2s ease-in-out;
+        opacity: 0;
+    }
+    i{
+        font-size: 20px;
+    }
+}
+.table-value{
+    text-align: right;
+    font-weight: 600;
+    &.red{
+        color: #CA3F46;
+    }
+}
+.table-cpa{
+    text-align: center;
+    i{
+        font-size: 20px;
+    }
+}
+.table-filter{
+    text-align: center;
+    i{
+        font-size: 20px;
+        color: $primaryColor;
+    }
+}
+.table-activity{
+    text-align: center;
+    a{
+        color: #0B56A2;
+    }
+    &__comment,
+    &__share{
+        width: 50%;
+        display: inline-block;
+        margin: 0 -1px 0 -1px;
+    }
+}
+
+
+.table>tbody>tr>td, 
+.table>tbody>tr>th, 
+.table>thead>tr>td, 
+.table>thead>tr>th{
+    vertical-align: middle;
+}
+
+::-webkit-input-placeholder {font-size: 10px;}
+::-moz-placeholder          {font-size: 10px;}/* Firefox 19+ */
+:-moz-placeholder           {font-size: 10px;}/* Firefox 18- */
+:-ms-input-placeholder      {font-size: 10px;}
+
+

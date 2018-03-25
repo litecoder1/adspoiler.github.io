@@ -1,0 +1,14 @@
+//Global settings
+@import 'utils/vars';
+@import 'utils/mixins';
+//Base styles
+@import 'base/reset';
+@import 'base/base';
+
+//Components
+@import 'components/main-wrap';
+@import 'components/modal-btn';
+@import 'components/modal';
+@import 'components/tabs';
+@import 'components/table';
+@import 'components/schedule';

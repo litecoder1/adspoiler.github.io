@@ -1,0 +1,37 @@
+.modal-block{
+    @include CenterElem;
+    width: 1094px;
+    height: 630px;
+    border: 3px solid $primaryColor;
+    background-color: #2A2A2A;
+    border-radius: 7px;
+    opacity: 0;
+    transition: .2s ease-in-out;
+    visibility: hidden;
+    padding: 30px;
+    &.active{
+        opacity: 1;
+        visibility: visible;
+    }
+    &__header{
+        &--title{
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: bold;
+            float: left;
+        }
+        &--close{
+            float: right;
+            .close-modal-btn{
+                cursor: pointer;
+                .fa-close{
+                    color: #ffffff;
+                    font-size: 20px;
+                }
+            }
+        }
+        &:after{
+            @include ClearFix;
+        }
+    }
+}
