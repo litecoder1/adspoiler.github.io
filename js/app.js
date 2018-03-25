@@ -42,7 +42,7 @@ $(document).ready(function () {
 
 
 //Init datatable
-Highcharts.setOptions({
+var scheduleColors = Highcharts.setOptions({
     colors: ['#C9414C', '#3399D9']
 });
 
@@ -81,6 +81,10 @@ Highcharts.chart('schedule', {
         itemStyle: {
             color: '#ffffff'
         }
+    },
+
+    credits: {
+        enabled: false
     },
 
     plotOptions: {
@@ -130,4 +134,47 @@ Highcharts.chart('schedule', {
     ]
 });
 
+var genderColors = Highcharts.setOptions({
+    colors: ['#2F85C6', '#A82084']
+});
 
+
+Highcharts.chart('gender', {
+    chart: {
+        type: 'pie',
+        backgroundColor: '#2a2a2a'
+    },
+
+    tooltip: { enabled: false },
+    
+    plotOptions: {
+        series:{
+            states:{
+                hover:{
+                    enabled:false
+                }
+            }
+        },
+        pie: {
+            size: 40,
+            borderWidth:0,
+            dataLabels: {
+                enabled: false
+            }
+        }
+    },
+    credits: {
+        enabled: false
+    },
+
+    title: {
+        text: false
+    },
+
+    series: [{
+        data: [
+            ['man', 44.2],
+            ['woman', 26.6],
+        ]
+    }]
+})

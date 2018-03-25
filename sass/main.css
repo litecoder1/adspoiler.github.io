@@ -716,6 +716,10 @@ th:after {
   margin: 0 -1px 0 -1px;
 }
 
+.table-gender {
+  height: 55px;
+}
+
 .table > tbody > tr > td,
 .table > tbody > tr > th,
 .table > thead > tr > td,
