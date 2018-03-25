@@ -404,7 +404,7 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 1094px;
+  width: 1101px;
   height: 630px;
   border: 3px solid #2C97DE;
   background-color: #2A2A2A;
@@ -412,7 +412,7 @@ button {
   opacity: 0;
   transition: .2s ease-in-out;
   visibility: hidden;
-  padding: 30px;
+  padding: 25px 33px 30px 33px;
 }
 
 .modal-block.active {
@@ -447,7 +447,7 @@ button {
 }
 
 .modal-tabs {
-  margin-top: 54px;
+  margin-top: 42px;
 }
 
 .modal-tabs__nav {
@@ -460,7 +460,7 @@ button {
   color: #545454;
   font-size: 14px;
   font-weight: bold;
-  padding: 0 10px 4px 10px;
+  padding: 0 7px 4px 7px;
   border-bottom: 3px solid transparent;
   cursor: pointer;
   transition: .2s ease-in-out;
@@ -476,7 +476,7 @@ button {
 }
 
 .modal-tabs .modal-tab {
-  margin-top: 40px;
+  margin-top: 31px;
 }
 
 .modal-tabs .modal-tab__header {
@@ -486,12 +486,12 @@ button {
 }
 
 .modal-tabs .modal-tab .modal-table {
-  margin-top: 19px;
+  margin-top: 15px;
 }
 
 .table {
   border-collapse: separate !important;
-  border-color: #2d2d2d;
+  border-color: #303030;
   color: #6C6F72;
 }
 

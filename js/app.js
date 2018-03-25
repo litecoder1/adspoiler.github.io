@@ -32,7 +32,7 @@ $(document).ready(function () {
         paging: false,
         "columnDefs": [
             {
-                "targets": [ 0, 2, 4, 9,11], //first column / numbering column
+                "targets": [0, 2, 4, 9, 11], //first column / numbering column
                 "orderable": false, //set not orderable 
             },
         ],
@@ -55,7 +55,7 @@ Highcharts.chart('schedule', {
     chart: {
         backgroundColor: '#2a2a2a',
         type: 'area',
-        height:'370px'
+        height: '370px'
     },
 
     xAxis: {
