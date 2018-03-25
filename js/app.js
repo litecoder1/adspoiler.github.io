@@ -100,10 +100,10 @@ Highcharts.chart('schedule', {
 
     series: [
         {
-            name: 'AdSpoiler',
+            name: 'Пересечение',
             data: [409.9, 301.5, 206.4, 329.2, 344.0, 276.0, 235.6, 248.5, 316.4, 294.1, 15.6],
             fillOpacity: 0.4,
-            color: '#3399D9',
+            color: '#C9414C',
             lineColor: '#C9414C',
             fillColor: {
                 linearGradient: [0, 0, 0, 500],
@@ -114,10 +114,10 @@ Highcharts.chart('schedule', {
             }
         },
         {
-            name: 'Пересечение',
+            name: 'AdSpoiler',
             data: [79.9, 79.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6],
             fillOpacity: 0.4,
-            color: '#C9414C',
+            color: '#3399D9',
             lineColor: '#3399D9',
             fillColor: {
                 linearGradient: [0, 0, 0, 500],
