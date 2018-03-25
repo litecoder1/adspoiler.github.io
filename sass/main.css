@@ -435,9 +435,9 @@ button {
   cursor: pointer;
 }
 
-.modal-block__header--close .close-modal-btn .fa-close {
-  color: #ffffff;
-  font-size: 20px;
+.modal-block__header--close .close-modal-btn img {
+  width: 20px;
+  height: 20px;
 }
 
 .modal-block__header:after {
@@ -652,7 +652,7 @@ th:after {
   border-radius: 4px;
   padding: 4px 0;
   top: -40px;
-  left: -50px;
+  left: -55px;
   visibility: hidden;
   font-weight: 600;
   transition: .2s ease-in-out;
@@ -666,7 +666,7 @@ th:after {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   top: -20px;
-  left: 7px;
+  left: 3px;
   visibility: hidden;
   transition: .2s ease-in-out;
   opacity: 0;
