@@ -216,6 +216,10 @@ th:after{
     height: 55px;
 }
 
+.sorting_asc:after{
+    color: #109ACB;
+    opacity: 1!important;
+}
 
 .table>tbody>tr>td, 
 .table>tbody>tr>th, 
